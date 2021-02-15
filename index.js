@@ -21,8 +21,8 @@ app.use((req, res, next) => {
     next()
 })
 
-app.use('/api/dreams', dreamsRoutes)
-app.use('/api/users', userRoutes)
+app.use('/dreams', dreamsRoutes)
+app.use('/users', userRoutes)
 
 app.use((req, res, next) => {
     const error = new HttpError('Could Not Find This Route')
