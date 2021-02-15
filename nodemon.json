@@ -1,0 +1,8 @@
+{
+    "env": {
+        "DB_USER": "dreamer",
+        "DB_PASSWORD": "dream",
+        "DB_NAME": "dreampalace",
+        "JWT_KEY": "supersecret"
+    }
+}
